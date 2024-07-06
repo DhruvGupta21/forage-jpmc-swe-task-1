@@ -1,3 +1,4 @@
+
 ################################################################################
 #
 #  Permission is hereby granted, free of charge, to any person obtaining a
@@ -59,7 +60,7 @@ OVERLAP = 4
 # Test Data
 
 def bwalk(min, max, std):
-    """ Generates a bounded random walk. """
+
     rng = max - min
     while True:
         max += normalvariate(0, std)
